@@ -419,7 +419,7 @@
     name: "Connect to & drive our strategy",
     color: "#9747FF",
     skills: ["Business", "Product"],
-    skillDescriptions: ["Business strategy & commercial thinking", "Product, competitor and customer understanding"]
+    skillDescriptions: ["Business strategy, commercial thinking", "Product, competitor and customer understanding"]
   };
   var craftCategory = {
     name: "Uplift the team",

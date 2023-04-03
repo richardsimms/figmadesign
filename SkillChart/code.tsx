@@ -20,16 +20,16 @@ type Category = {
 };
 
 const strategyCategory = {
-  name: "Connect to & drive our strategy",
+  name: "Strategy",
   color: "#9747FF",
-  skills: ["Business", "Product"],
-  skillDescriptions: ["Business strategy, commercial thinking", "Product, competitor and customer understanding"],
+  skills: ["Product", "Research", "Vision"],
+  skillDescriptions: ["What we're building and why", "Qualitative and quantitative evidence", "Future pathways and how things fit together"],
 };
 const craftCategory = {
-  name: "Uplift the team",
+  name: "Craft",
   color: "#0D99FF",
-  skills: ["Personal growth", "Team"],
-  skillDescriptions: ["How things look", "Underlying models, IAs, etc."],
+  skills: ["Visual", "Interaction", "Systems"],
+  skillDescriptions: ["How things look", "How things behave", "Underlying models, IAs, etc."],
 };
 const writingCraftCategory = {
   name: "Writing",
@@ -44,10 +44,10 @@ const collabCategory = {
   skillDescriptions: ["Written, verbal, and interpersonal skills", "Resiliency and growth orientation", "Sharing work and incorporating feedback"],
 };
 const impactCategory = {
-  name: "Create outcomes with impact",
+  name: "Impact",
   color: "#FFCD29",
-  skills: ["Design execution", "Research"],
-  skillDescriptions: ["Output, follow-through, and business impact",  "Improving our culture, hiring, and company practices"],
+  skills: ["Effectiveness", "Leadership", "Citizenship"],
+  skillDescriptions: ["Output, follow-through, and business impact", "Mentorship, ability to influence and drive change", "Improving our culture, hiring, and company practices"],
 };
 
 const categories = [strategyCategory, craftCategory, writingCraftCategory, collabCategory, impactCategory];
