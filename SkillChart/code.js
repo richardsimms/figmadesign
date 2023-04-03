@@ -416,16 +416,16 @@
     SVG
   } = widget;
   var strategyCategory = {
-    name: "Strategy",
+    name: "Connect to & drive our strategy",
     color: "#9747FF",
-    skills: ["Product", "Research", "Vision"],
-    skillDescriptions: ["What we're building and why", "Qualitative and quantitative evidence", "Future pathways and how things fit together"]
+    skills: ["Business", "Product"],
+    skillDescriptions: ["Business strategy & commercial thinking", "Product, competitor and customer understanding"]
   };
   var craftCategory = {
-    name: "Craft",
+    name: "Uplift the team",
     color: "#0D99FF",
-    skills: ["Visual", "Interaction", "Systems"],
-    skillDescriptions: ["How things look", "How things behave", "Underlying models, IAs, etc."]
+    skills: ["Personal growth", "Team"],
+    skillDescriptions: ["How things look", "Underlying models, IAs, etc."]
   };
   var writingCraftCategory = {
     name: "Writing",
@@ -440,10 +440,10 @@
     skillDescriptions: ["Written, verbal, and interpersonal skills", "Resiliency and growth orientation", "Sharing work and incorporating feedback"]
   };
   var impactCategory = {
-    name: "Impact",
+    name: "Create outcomes with impact",
     color: "#FFCD29",
-    skills: ["Effectiveness", "Leadership", "Citizenship"],
-    skillDescriptions: ["Output, follow-through, and business impact", "Mentorship, ability to influence and drive change", "Improving our culture, hiring, and company practices"]
+    skills: ["Design execution", "Research"],
+    skillDescriptions: ["Output, follow-through, and business impact", "Improving our culture, hiring, and company practices"]
   };
   var categories = [strategyCategory, craftCategory, writingCraftCategory, collabCategory, impactCategory];
   function Widget() {
